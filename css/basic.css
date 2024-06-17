@@ -1,0 +1,90 @@
+*{
+    font-family: 'Inter', sans-serif;
+    cursor: url('images/cursor.png') 32 32, auto;
+}
+
+a {
+    text-decoration: none;
+    color: #09131F;
+    cursor: url('images/cursor.png') 32 32, auto;
+}
+
+a:hover {
+    color: #C4D7F0;
+}
+
+/* nazifaahmed.com */
+header {
+    font-size: 3vw;
+    text-align: center;
+    font-weight: 700;
+    padding: 3% 0;
+}
+
+/* navigation bar */
+nav {
+    color: #858491;
+    font-size: 1.5vw;
+    display: flex;
+    font-weight: 600;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+li{
+    text-align: center;
+    display: block;
+    margin: 5%, 0;
+    padding: 10px;
+}
+
+li a{
+    color: #858491;
+    padding:10px;
+}
+
+li a:hover{
+    padding: 10px;
+}
+
+/* image and caption */
+.imgAndCaption{
+    margin: 0 80px 40px;
+    position: relative;
+}
+
+.caption{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    font-size: 1.5vw;
+    color: #858491;
+}
+
+.homePhoto{
+    width: 100%;
+    height: auto;
+}
+
+/* paragraph */
+
+.secondBlock{
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+/* bottom part */
+.bottom{
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 80px;
+}

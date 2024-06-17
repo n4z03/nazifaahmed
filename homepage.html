@@ -4,86 +4,32 @@
     <title>Nazifa Ahmed</title>
     <link rel="icon" href="images/lichu.png" type="image/png" sizes="32x32">
     
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/basic.css">
+
     <style>
-        
         *{
             font-family: 'Inter', sans-serif;
+            cursor: url('images/cursor.png') 32 32, auto;
         }
 
-        header{
-            font-size: 3vw;
-            text-align:center;
+        a {
+            text-decoration: none;
             color: #09131F;
-            font-weight: 700;
-            padding-top: 3%;
-            padding-bottom: 3%;
-        }
-
-        header a{
-            text-decoration: none;
-            color: #09131F; 
-        }
-
-        header a:hover{
             cursor: url('images/cursor.png') 32 32, auto;
-            color: #C4D7F0;
-        }
-
-        body{
-            cursor: url('images/cursor.png') 32 32, auto;
-        }
-
-        nav{
-            color: #858491;
-            font-size: 1.5vw;
-            display: flex;
-            font-weight: 600;
-            justify-content: center;
-            padding-bottom: 2%;
-        }
-        
-        ul{
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            align-items: center;
-        }
-
-        li{
-            text-align: center;
-            display: block;
-            margin: 5%, 0;
-            padding: 10px;
-        }
-
-        li a{
-            cursor: url('images/cursor.png') 32 32, auto;
-            color: #858491;
-            padding:10px;
-            text-decoration: none;
-        }
-
-        li a:hover{
-            cursor: url('images/cursor.png') 32 32, auto;
-            color:#09131F;
-            border-radius:4px;
-        }
-
-        .homeImgAndCaption{
-            margin-left: 80px;
-            margin-right: 80px;
+            }
+            
+        /* image and caption */
+        .imgAndCaption{
+            margin: 0 80px 40px;
             position: relative;
-            margin-bottom: 40px;
         }
 
         .caption{
             position: absolute;
             bottom: 8px;
             left: 16px;
-            font-size: 24px;
-            font-family: inter;
+            font-size: 1.5vw;
             color: #858491;
         }
 
@@ -92,12 +38,20 @@
             height: auto;
         }
 
+        /* paragraph */
+
         .secondBlock{
             margin-bottom: 80px;
             margin-left: 80px;
             margin-right: 80px;
         }
 
+        /* bottom part */
+        .bottom{
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 80px;
+        }
         
     </style>
     </head>
@@ -110,33 +64,29 @@
 
         <nav>
                 <ul>
+                    <li><a href="about.html">about</a></li>
                     <li><a href="projects.html">projects</a></li>
-                    <li><a href="art.html">art</a></li>
-                    <li><a href="cooking.html">cooking</a></li>
-                    <li><a href="photography.html">photography</a></li>
-                    <li><a href="cats.html">cats</a></li>
+                    <li><a href="photomail.html">my hobbies</a></li>
                 </ul>
         </nav>
 
-        <div class="homeImgAndCaption">
+        <div class="imgAndCaption">
             <img src="images/car.png" class="homePhoto" alt="photo of a car in the plateau">
-            <div class="caption"><i>montréal, canada</i></div>
+            <div class="caption"><i>plateau, montréal</i></div>
         </div>
         
         <div class="secondBlock">
-            <h1>
-                Hi, I’m Naz. Welcome to my website.
-            </h1>
-            <p>I’m currently a third year studying Computer Science and Economics at McGill University! I was born and raised in Dhaka, Bangladesh, and moved to Montréal when I was 16. 
-
-                I love art, exploring coffee shops, reading (fiction), and cats. Enjoy looking through my projects and just some things that I’m passionate about.</p>
+            <h1>Hi, I’m Naz. Welcome to my website.</h1>
+            <p>
+                I’m currently in my third year studying Computer Science and Economics at McGill University! I was born and raised in Dhaka, Bangladesh, and moved to Montréal when I was 16. 
+                <br><br>
+                I love art, exploring coffee shops, reading (fiction), and cats. Enjoy looking through my projects and just some things that I’m passionate about.
+            </p>
         </div>
-        
 
-
-        
-
-
-
+        <div class="bottom">
+            <a href=homepage.html>nazifaahmed.com</a>
+            <p>♡</p>
+        </div>        
     </body>
 </html>
